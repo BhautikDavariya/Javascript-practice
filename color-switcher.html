@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Color Switcher Example</title>
+	<link rel="stylesheet" href="">
+	<style type="text/css" media="screen">
+	body{
+		margin: 0px;
+		padding: 25px;
+	}
+	#hed{
+		text-align: center;
+	}
+	#hed h1{
+		margin: 0px;
+		padding: 15px;
+	}
+	.btn{
+		display: inline-block;
+		height: 20px;
+		width: 20px;
+		border: 2px solid black;
+		border-radius: 50%;
+		padding: 5px;
+		cursor: pointer;
+	}
+	#lightgray{
+		background-color: #A9A9A9;
+	}
+	#blue{
+		background-color: skyblue;
+	}
+	#red{
+		background-color: indianred;
+	}
+	#gray{
+		background-color: gray;
+	}
+	img{
+		width: 300px;
+		height: 200px;
+		border-radius: 20px;
+	}
+	#wrap{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 0px;
+
+	}
+	#div2{
+		width: 40%;
+		text-align: justify;
+		margin-left: 70px;
+	}		
+	</style>
+</head>
+<body>
+	<div id="hed">
+		<h1>Color Switcher Example</h1>
+		<span class="btn" id="lightgray" onclick="btnclk('#d3d3d3','#A9A9A9')"></span>
+		<span class="btn" id="blue" onclick="btnclk('#87CEEB','#0000ff')"></span>
+		<span class="btn" id="red" onclick="btnclk('#CD5C5C','#ff0000')"></span>
+		<span class="btn" id="gray" onclick="btnclk('#808080','#d3d3d3')"></span>
+	</div>
+	<div id="wrap">
+		<div id="div1">
+			<img src="image/1.jpg" alt="">
+		</div>
+		<div id="div2">
+			<h3>OSCAR CAREER POINT</h3>
+			<p>Oscar Career Point is a leading training and career development institute in Surat for providing Corporate IT Training in all types of company-oriented professional IT courses with a 100% job placement guarantee.
+			With experience spanning more than 7 years in IT Development, Oscar Career Point has focused on training freshers/students of IT, Computer, BCA, MCA, B.Sc IT, M.Sc IT, Degree & Diploma, etc. We helped students to chart their career journey with a good beginning in the industry.
+			Oscar Career Point is a leading training and career development institute in Surat for providing Corporate IT Training in all types of company-oriented professional IT courses with a 100% job placement guarantee.
+			With experience spanning more than 7 years in IT Development, Oscar Career Point has focused on training freshers/students of IT, Computer, BCA, MCA, B.Sc IT, M.Sc IT, Degree & Diploma, etc. We helped students to chart their career journey with a good beginning in the industry.
+			</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		let btn = document.getElementsByClassName("btn");
+		let wrap = document.getElementById("wrap");
+		let hed = document.getElementById("hed");
+		// for(let elm of btn)
+		// {
+		// 	function btnclk(color,ched){
+		// 		wrap.style.background = color;
+		// 		hed.style.background = ched;
+		// 	}
+		// }
+		function btnclk(color,ched){
+				wrap.style.background = color;
+				hed.style.background = ched;
+			}
+
+	</script>
+</body>
+</html>
