@@ -1,0 +1,163 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    background-color: #263643;
+}
+
+#Clock{
+    color: white;
+    display: flex;
+    font-size: 65px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#closkNumber{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 2% 0;
+}
+
+.numbers{
+    color: red;
+    font-weight: bold;
+    font-size: 100px;
+    margin: 0 1%;
+}
+.HMS{
+    color: white;
+    font-size: 40px;
+}
+#clockButton{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#clockButton button{
+    width: auto;
+    margin: 0 1%;
+    padding: 1%;
+    font-size: 30px;
+}
+
+.color1{
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #17a388;
+}
+.color2{
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #3185bf;
+}
+.color3{
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #cb4439;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #2c3347;
+    color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+  
+    text-align: center;
+    line-height: 59px;
+  
+    padding: 0 64px;
+    margin: 0;
+  }
+  
+  .stopwatch {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 270px;
+    width: 270px;
+  
+    border: 2px solid;
+    border-radius: 50%;
+  }
+  
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+  }
+  
+  .gold {
+    font-weight: 900;
+  
+    color: #f2c94c;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 187px;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  
+  #playButton {
+    display: block;
+  }
+  
+  #pauseButton {
+    display: none;
+  }

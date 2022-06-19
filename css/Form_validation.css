@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+#form_scs{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5% 0;
+    border: 10px solid blueviolet;
+}
+input{
+    border: 1px solid grey;
+    outline: none;
+    width: 400px;
+    /* width: 30% 30%; */
+    font-size: 15px;
+    padding: 2% 1%;
+}
+button{
+    background-color: cornflowerblue;
+    width: 400px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 2% 1%;
+    border-radius: 5px;
+}
+span{
+    /* font-size: 15px; */
+    color: red;
+}

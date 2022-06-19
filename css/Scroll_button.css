@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 2000px;
+    position: relative;
+}
+.scs{
+    clear: both;
+    padding-top: 50px;
+    text-align: center;
+}
+.scs > div{
+    margin: 20px 50px;
+}
+#TopButton{
+    top: 93vh;
+    text-align: end;
+    position: sticky;
+    display: none;
+}
+
+a{
+ 
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+}

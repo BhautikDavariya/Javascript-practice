@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    /* padding: 5px; */
+}
+table, tr, th, td{
+    font-size: 20px;
+    border: 1px solid black;
+  border-collapse: collapse;
+}
+td button{
+    border: none;
+    /* outline: none; */
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ce5c5c;
+    color: white;
+    font-size: 15px;
+    margin: 1% 0;
+}
+td button:hover{
+   cursor: pointer;
+}
+.bg1{
+    font-size: 30px;
+    color: white;
+    background-color: #ce5c5c;
+    padding: 3px 0;
+}
+tr th{
+    padding: 3px 0;
+    background-color: #ffe3c6;
+}
+tr td{
+    padding: 3px 0;
+    background-color: #ffe3c6;
+}

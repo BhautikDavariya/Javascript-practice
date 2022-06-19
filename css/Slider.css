@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#slider_scs{
+    width: 80%;
+    margin: 0 auto;
+}
+.fas{
+    cursor: pointer;
+    font-size: 30px;
+    color: black;
+}
+#slider_scs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100vh;
+    align-content: center;
+}
+.slider{
+    box-shadow: 18px 9px 8px 5px rgb(0 0 0 / 50%);
+    text-align: center;
+    color: white;
+    padding: 20vh 50vh;
+    background-color: brown;
+    /* display: none; */
+}
+#slider1{
+    display: block;
+}
+#slider2{
+    display: none;
+}
+#slider3{
+    display: none;
+}

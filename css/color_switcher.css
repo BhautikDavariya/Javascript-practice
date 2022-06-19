@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --top-backgroud-color : #191c23;
+    --brid-backgroud-color : #808898;
+    --bird_info-text-color : white;
+}
+#main_scs_start{
+    /* background-color: #191c23; */
+    /* background-color: var(--top-backgroud-color); */
+    background-color: #191c23;
+    padding: 15px 0;
+    /* width: 70%; */
+    /* margin: 0 auto; */
+}
+.fas{
+    color: yellow;
+    /* font-size: 20px; */
+}
+#top_thae_scs{
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 25px;
+}
+#top_thae_scs h1{
+    color: white;
+   padding: 0 25px;
+}
+#color_chage_scs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#colors{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    margin: 5px;
+    transition: all 0.5s ease-in-out;
+}
+#colors:hover{
+    cursor: pointer;
+    transform:  scale(1.5, 1.5);
+}
+.color1{
+    background-color: #fafbfa;
+}
+.color2{
+    background-color: #7f97f0;
+}
+.color3{
+    background-color: #8c1569;
+}
+.color4{
+    background-color: #7f8797;
+}
+#bird{
+    width: 100%;
+    /* background-color: var(--brid-backgroud-color); */
+    background-color: #808898;
+}
+#all_bird_scs{
+    width: 70%;
+    margin: 0 auto;
+    padding: 120px 0px;
+    
+}
+#bird_scs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bird_img{
+    width: 40%;
+}
+#bird_info{
+    width: 40%;
+    /* color: var(--bird_info-text-color); */
+    color: white;
+}
+.bird_info h1{
+    padding: 20px 0;
+}
+.bird_img img{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+}

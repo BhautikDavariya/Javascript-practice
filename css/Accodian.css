@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#TaskOne{
+    width: 70%;
+    margin: 28vh auto;
+    /* border: 1px solid black; */
+}
+.contain_1{
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.section-p{
+    text-align: center;
+}
+
+#section1_start{
+    display: block;
+    /* position: relative; */
+}
+/* .pluse{
+    display: block;
+}
+.minus{
+    display: none;
+} */
+#containp{
+    /* width: 70%; */
+    display: none;
+    /* position: absolute; */
+}
+#all_scs{
+    margin: 5px 0;
+    /* width: 70%; */
+}
+
+/* sec 2 */
+.contain_11{
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.section-p1{
+    text-align: center;
+}
+
+#section1_start1{
+    display: block;
+}
+#containp1{
+    /* width: 70%; */
+    display: none;
+
+}
+#all_scs1{
+    margin: 10px 0;
+}
+
+/* sec 3 */
+.contain_12{
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.section-p2{
+    text-align: center;
+}
+#section1_start2{
+    display: block;
+}
+#containp2{
+    /* width: 70%; */
+    display: none;
+
+}
+#all_scs2{
+    margin: 5px 0;
+}
+/* .cp{
+    transition: all 1ms ease-in;
+} */
+.cn{
+    background-color: wheat;
+}
+.cp:hover{
+    /* background-color: whitesmoke; */
+    cursor: pointer;
+}
+.cn:hover{
+    cursor: pointer;
+}
+/* .pp{
+    background-color: whitesmoke;
+} */
+.pp p{
+    padding: 15px;
+    font-size: 20px;
+}
